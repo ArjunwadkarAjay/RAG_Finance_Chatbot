@@ -4,6 +4,8 @@ Use virtual env and use requirements.txt to set the environment.
 
 Install Ollama locally & install / pull llama3 model to serve it
 
+Use ```streamlit run query_app.py``` to start the required streamlit ui code
+
 ### Explanation of the Logic in the RAG Chatbot
 
 This **Retrieval-Augmented Generation (RAG) chatbot** is designed to answer **financial queries** by retrieving relevant financial statements and using **Llama** via Ollama to generate responses. Here’s a breakdown of its components and logic:
